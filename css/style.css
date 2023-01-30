@@ -1,0 +1,71 @@
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --brand-color: #2196F3;
+}
+
+Body {
+    font-family: 'roboto', sans-serif;
+    
+}
+ 
+.brand-color {
+        color:var(--brand-color, blue)
+}
+
+.white-color {
+    color: white
+}
+
+.black-color {
+    color: black;
+}
+
+.brand-link {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.navbar .navigation a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--main-color), black; 
+}
+
+.navbar .contact-top-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color, gray)
+}
+  
+.contact-bottom-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+    text-decoration: none;
+    ont-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
